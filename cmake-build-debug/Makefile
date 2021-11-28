@@ -129,6 +129,30 @@ sort1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/build
 .PHONY : sort1/fast
 
+HeapSort.o: HeapSort.cpp.o
+.PHONY : HeapSort.o
+
+# target to build an object file
+HeapSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/HeapSort.cpp.o
+.PHONY : HeapSort.cpp.o
+
+HeapSort.i: HeapSort.cpp.i
+.PHONY : HeapSort.i
+
+# target to preprocess a source file
+HeapSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/HeapSort.cpp.i
+.PHONY : HeapSort.cpp.i
+
+HeapSort.s: HeapSort.cpp.s
+.PHONY : HeapSort.s
+
+# target to generate assembly for a file
+HeapSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/HeapSort.cpp.s
+.PHONY : HeapSort.cpp.s
+
 insertSort.o: insertSort.cpp.o
 .PHONY : insertSort.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sort1"
+	@echo "... HeapSort.o"
+	@echo "... HeapSort.i"
+	@echo "... HeapSort.s"
 	@echo "... insertSort.o"
 	@echo "... insertSort.i"
 	@echo "... insertSort.s"

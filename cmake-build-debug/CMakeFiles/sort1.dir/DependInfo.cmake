@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/viktoria/Desktop/цк/sort1/HeapSort.cpp" "/Users/viktoria/Desktop/цк/sort1/cmake-build-debug/CMakeFiles/sort1.dir/HeapSort.cpp.o"
   "/Users/viktoria/Desktop/цк/sort1/insertSort.cpp" "/Users/viktoria/Desktop/цк/sort1/cmake-build-debug/CMakeFiles/sort1.dir/insertSort.cpp.o"
   "/Users/viktoria/Desktop/цк/sort1/main.cpp" "/Users/viktoria/Desktop/цк/sort1/cmake-build-debug/CMakeFiles/sort1.dir/main.cpp.o"
   )
