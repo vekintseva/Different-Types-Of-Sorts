@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/viktoria/Desktop/цк/sort1/insertSort.cpp">
+			<Option target="sort1"/>
+		</Unit>
 		<Unit filename="/Users/viktoria/Desktop/цк/sort1/main.cpp">
 			<Option target="sort1"/>
 		</Unit>
