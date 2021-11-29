@@ -81,6 +81,9 @@
 		<Unit filename="/Users/viktoria/Desktop/цк/sort1/HeapSort.cpp">
 			<Option target="sort1"/>
 		</Unit>
+		<Unit filename="/Users/viktoria/Desktop/цк/sort1/MergeSort.cpp">
+			<Option target="sort1"/>
+		</Unit>
 		<Unit filename="/Users/viktoria/Desktop/цк/sort1/insertSort.cpp">
 			<Option target="sort1"/>
 		</Unit>

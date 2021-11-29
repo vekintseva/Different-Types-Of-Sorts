@@ -153,6 +153,30 @@ HeapSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/HeapSort.cpp.s
 .PHONY : HeapSort.cpp.s
 
+MergeSort.o: MergeSort.cpp.o
+.PHONY : MergeSort.o
+
+# target to build an object file
+MergeSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/MergeSort.cpp.o
+.PHONY : MergeSort.cpp.o
+
+MergeSort.i: MergeSort.cpp.i
+.PHONY : MergeSort.i
+
+# target to preprocess a source file
+MergeSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/MergeSort.cpp.i
+.PHONY : MergeSort.cpp.i
+
+MergeSort.s: MergeSort.cpp.s
+.PHONY : MergeSort.s
+
+# target to generate assembly for a file
+MergeSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/MergeSort.cpp.s
+.PHONY : MergeSort.cpp.s
+
 insertSort.o: insertSort.cpp.o
 .PHONY : insertSort.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... HeapSort.o"
 	@echo "... HeapSort.i"
 	@echo "... HeapSort.s"
+	@echo "... MergeSort.o"
+	@echo "... MergeSort.i"
+	@echo "... MergeSort.s"
 	@echo "... insertSort.o"
 	@echo "... insertSort.i"
 	@echo "... insertSort.s"
