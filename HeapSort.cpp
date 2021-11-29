@@ -4,11 +4,11 @@ using namespace std;
 
 void siftDown(vector <int> &array, int i , int n){
     while(2 * i + 1 < n){
-        int left = 2 * i + 1;
-        int right = 2 * i + 2;
-        int j = left;
-        if(right < n && array[right] < array[left])
-            j = right;
+        int leftChild = 2 * i + 1;
+        int rightChild = 2 * i + 2;
+        int j = leftChild;
+        if(rightChild < n && array[rightChild] < array[leftChild])
+            j = rightChild;
         if(array[i] <= array[j])
             break;
         swap(array[i], array[j]);
