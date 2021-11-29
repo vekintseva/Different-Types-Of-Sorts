@@ -129,6 +129,30 @@ sort1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/build
 .PHONY : sort1/fast
 
+insertSort.o: insertSort.cpp.o
+.PHONY : insertSort.o
+
+# target to build an object file
+insertSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/insertSort.cpp.o
+.PHONY : insertSort.cpp.o
+
+insertSort.i: insertSort.cpp.i
+.PHONY : insertSort.i
+
+# target to preprocess a source file
+insertSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/insertSort.cpp.i
+.PHONY : insertSort.cpp.i
+
+insertSort.s: insertSort.cpp.s
+.PHONY : insertSort.s
+
+# target to generate assembly for a file
+insertSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort1.dir/build.make CMakeFiles/sort1.dir/insertSort.cpp.s
+.PHONY : insertSort.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sort1"
+	@echo "... insertSort.o"
+	@echo "... insertSort.i"
+	@echo "... insertSort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
